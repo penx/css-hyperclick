@@ -8,7 +8,10 @@
     "hyperclick",
     "atom"
   ],
-  "repository": "https://github.com/penx/css-hyperclick",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/css-hyperclick.git"
+  },
   "license": "MIT",
   "providedServices": {
     "hyperclick": {
@@ -25,4 +28,8 @@
     "email": "alasdair.mcleay@me.com",
     "url": "https://www.linkedin.com/in/alasdairmcleay/"
   },
+  "bugs": {
+    "url": "https://github.com/penx/css-hyperclick/issues"
+  },
+  "homepage": "https://github.com/penx/css-hyperclick#readme"
 }

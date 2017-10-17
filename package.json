@@ -3,6 +3,10 @@
   "main": "./lib/css-hyperclick",
   "version": "0.1.0",
   "description": "CSS Plugin for Atom's Hyperclick package.",
+  "scripts": {
+    "eslint": "eslint lib/**/*.js",
+    "eslint:fix": "eslint lib/**/*.js --fix"
+  },
   "keywords": [
     "css",
     "hyperclick",
@@ -31,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/penx/css-hyperclick/issues"
   },
-  "homepage": "https://github.com/penx/css-hyperclick#readme"
+  "homepage": "https://github.com/penx/css-hyperclick#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0"
+  }
 }

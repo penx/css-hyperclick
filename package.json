@@ -1,18 +1,28 @@
 {
   "name": "css-hyperclick",
   "main": "./lib/css-hyperclick",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "CSS Plugin for Atom's Hyperclick package.",
   "keywords": [
+    "css",
+    "hyperclick",
+    "atom"
   ],
-  "activationCommands": {
-    "atom-workspace": "css-hyperclick:toggle"
-  },
-  "repository": "https://github.com/atom/css-hyperclick",
+  "repository": "https://github.com/penx/css-hyperclick",
   "license": "MIT",
+  "providedServices": {
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "getProvider"
+      }
+    }
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "author": {
+    "name": "Alasdair McLeay",
+    "email": "alasdair.mcleay@me.com",
+    "url": "https://www.linkedin.com/in/alasdairmcleay/"
+  },
 }

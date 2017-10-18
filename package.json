@@ -1,7 +1,7 @@
 {
   "name": "css-hyperclick",
   "main": "./lib/css-hyperclick",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CSS Plugin for Atom's Hyperclick package.",
   "scripts": {
     "eslint": "eslint lib/**/*.js",
